@@ -1,0 +1,8 @@
+dependencies {
+    implementation group: 'org.springframework', name: 'spring-jdbc', version: '5.3.9'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.25'
+}
+
+test {
+    useJUnitPlatform()
+}
